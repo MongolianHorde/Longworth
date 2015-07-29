@@ -1,0 +1,22 @@
+Tables:
+Souvenir
+Photo
+
+Souvenir:
+1. SOUVENIR_ID PK              NUMERIC(9)
+2. ATHLETE_NAME                VARCHAR(MAX)
+3. SOUVENIR                    VARCHAR(MAX)
+4. SOUVENIR_COST               NUMERIC(9,2)
+5. SPORT                       VARCHAR(MAX)
+6. DATE_ACQUIRED               DATE
+7. ADDITIONAL_COST             NUMERIC(9,2)
+8. ADDITIONAL_COST_DESCRIPTION VARCHAR(MAX)
+9. IS_AUTHORIZED               TINYINT
+10. AUTHENTICATION_TYPE        VARCHAR(MAX)
+11. IS_SOLD                    TINYINT
+12. SOLD_DATE                  DATE
+13. PHOTO_ID FK(PHOTO)         NUMERIC(9)
+
+PHOTO:
+1. PHOTO_ID PK                 NUMERIC(9)
+2. PHOTO_LOCATION              VARCHAR(MAX)
