@@ -20,3 +20,8 @@ Souvenir:
 PHOTO:
 1. PHOTO_ID PK                 NUMERIC(9)
 2. PHOTO_LOCATION              VARCHAR(MAX)
+
+PHOTO_LIST:
+ID
+PHOTO_ID
+SOUVENIR_ID
